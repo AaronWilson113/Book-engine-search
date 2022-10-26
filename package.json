@@ -1,21 +1,24 @@
 {
-  "name": "googlebooks-app",
+  "name": "book-engine-search",
   "version": "1.0.0",
   "description": "",
-  "main": "server/server.js",
+  "main": "index.js",
+  "dependencies": {
+   
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node server/server.js",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronWilson113/Book-engine-search.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^5.1.0"
+  "bugs": {
+    "url": "https://github.com/AaronWilson113/Book-engine-search/issues"
   },
-  "dependencies": {
-    "apollo-server-express": "^2.15.0"
-  }
+  "homepage": "https://github.com/AaronWilson113/Book-engine-search#readme"
 }

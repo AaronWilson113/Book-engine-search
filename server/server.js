@@ -12,7 +12,7 @@ const { typeDefs, resolvers } = require('./schemas');
 
 
 const app = express();
-const PORT = process.env.PORT || 27017;
+const PORT = process.env.PORT || 3001;
 
 // create new apollo server and pass in our schema data
 const server = new ApolloServer({
